@@ -1,4 +1,4 @@
-package algorithms.binarysearch.lowarray;
+package algorithms.arrays.lowarray;
 
 public class LowArrayApp {
     public static void main(String[] args) {

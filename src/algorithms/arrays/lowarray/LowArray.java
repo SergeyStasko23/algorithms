@@ -1,4 +1,4 @@
-package algorithms.binarysearch.lowarray;
+package algorithms.arrays.lowarray;
 
 public class LowArray {
     private long[] a;                           // Ссылка на массив а

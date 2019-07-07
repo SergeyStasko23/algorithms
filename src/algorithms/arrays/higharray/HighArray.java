@@ -1,4 +1,4 @@
-package algorithms.binarysearch.higharray;
+package algorithms.arrays.higharray;
 
 public class HighArray {
     private long[] a;                       // Ссылка на массив а

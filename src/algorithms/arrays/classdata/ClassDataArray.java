@@ -1,4 +1,4 @@
-package algorithms.binarysearch.classdata;
+package algorithms.arrays.classdata;
 
 public class ClassDataArray {
     private Person[] a;                                 // Ссылка на массив

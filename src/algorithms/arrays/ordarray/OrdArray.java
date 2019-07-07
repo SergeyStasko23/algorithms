@@ -1,4 +1,4 @@
-package algorithms.binarysearch.ordarray;
+package algorithms.arrays.ordarray;
 
 public class OrdArray {
     private long[] a;                           // Ссылка на массив a

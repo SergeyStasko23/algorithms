@@ -1,4 +1,4 @@
-package algorithms.binarysearch.classdata;
+package algorithms.arrays.classdata;
 
 public class ClassDataApp {
     public static void main(String[] args) {

@@ -1,9 +1,10 @@
-package algorithms.binarysearch.higharray;
+package algorithms.arrays.ordarray;
 
-public class HighArrayApp {
+public class OrderedApp {
     public static void main(String[] args) {
         int maxSize = 100;                              // Размер массива
-        HighArray arr = new HighArray(maxSize);         // Создание массива
+
+        OrdArray arr = new OrdArray(maxSize);           // Создание массива
 
         arr.insert(77);                           // Вставка 10 элементов
         arr.insert(99);
@@ -16,16 +17,16 @@ public class HighArrayApp {
         arr.insert(66);
         arr.insert(33);
 
-        arr.display();                                  // Вывод элементов
+        int searchKey = 55;                             // Поиск элемента
 
-        int searchKey = 33;                             // Поиск элемента
-
-        if(arr.find(searchKey)) {
+        if(arr.find(searchKey) != arr.size()) {
             System.out.println("Found " + searchKey);
         }
         else {
             System.out.println("Can't find " + searchKey);
         }
+
+        arr.display();                                  // Вывод содержимого
 
         arr.delete(0);                            // Удаление трех элементов
         arr.delete(55);
